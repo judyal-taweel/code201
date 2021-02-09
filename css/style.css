@@ -2,11 +2,12 @@
     background-color: gray;
 }
 
-table{
+main ul li{
     border-collapse: collapse;
     border: 3px solid purple;
-    margin: 400px;
-    margin-top: 300px;
+    margin: 50px;
+    margin-left: 300px;
+    font-size: 30px;
 
 }
 
