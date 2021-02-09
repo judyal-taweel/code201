@@ -13,52 +13,57 @@ if(yourDrink.toLowerCase() === myfavDrink){
   alert('I don\'t like it');
 }
 console.log(myfavDrink);
+alert('I like tea')
 
 
 
 
-let userAge = prompt('Are you greater than 20 years?');
-if (userAge ==='yes' || userAge ==='y'){
-alert('thats fine')
-} else if(userAge ==='no' || userAge ==='n'){
+let myAge = prompt('Am I less than 20 years old?');
+if (myAge.toLowerCase ==='yes' || myAge.toLowerCase ==='y'){
+alert('not right')
+} else if(myAge.toLowerCase ==='no' || myAge.toLowerCase ==='n'){
   alert('thats good')
 }
-console.log(userAge);
+console.log(myAge);
+alert('I am 23 years')
 
-let userTravel = prompt('have you ever travel?');
-if(userTravel === 'yes' || userTravel === 'y'){
-    alert('thats so good')
-}else if (userTravel === 'no' || userTravel === 'n'){
-    alert('I hope you travel')
+
+let myTravel = prompt('did I travel?');
+if(myTravel.toLowerCase === 'yes' || myTravel.toLowerCase === 'y'){
+    alert('thats right')
+}else if (myTravel.toLowerCase === 'no' || myTravel.toLowerCase === 'n'){
+    alert('thats right')
 }
-console.log(userTravel);
+console.log(myTravel);
+alert('I love travel')
 
-
-let userColor = prompt('do you like red color?');
-if (userColor === 'yes' || userColor === 'y'){
-    alert('you same with me')
-}else if(userColor === 'no' || userColor === 'n'){
-    alert('ooh I like this color')
+let myColor = prompt('do I like red color?');
+if (myColor.toLowerCase === 'yes' || myColor.toLowerCase === 'y'){
+    alert('thats right')
+}else if(myColor.toLowerCase === 'no' || myColor.toLowerCase === 'n'){
+    alert('not right')
 }
-console.log(userColor);
+console.log(myColor);
+alert('Ilike red color')
 
 
-let userProg = prompt('do you like programing?');
-if(userProg === 'yes' || userProg === 'y'){
-    alert('me too')
-}else if(userProg === 'no' || userProg === 'n'){
-    alert('you must like it')
+let myProg = prompt('do I like programing?');
+if(myProg.toLowerCase === 'yes' || myProg.toLowerCase === 'y'){
+    alert('thats right')
+}else if(myProg.toLowerCase === 'no' || myProg.toLowerCase === 'n'){
+    alert('not right')
 }
-console.log(userProg);
+console.log(myProg);
+alert('i like programing')
 
-
-let userDrink = prompt('Did you drink water today?');
-if(userDrink === 'yes' || userDrink === 'y'){
-    alert('thats good')
-}else if(userDrink === 'no' || userDrink === 'no'){
-    alert('go to drink water now')
+let myDrink = prompt('Did I drink water today?');
+if(myDrink.toLowerCase === 'yes' || myDrink.toLowerCase === 'y'){
+    alert('thats right')
+}else if(myDrink.toLowerCase === 'no' || myDrink.toLowerCase === 'no'){
+    alert('not right')
 }
-console.log(userDrink);
+console.log(myDrink);
+alert('water important')
 
 alert(userName)
 
