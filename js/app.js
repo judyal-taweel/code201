@@ -2,8 +2,9 @@
 
 let score = 0;
 
-let myAge = prompt('Am I greater than 20 years old?');
-if (myAge.toLowerCase() ==='yes' || myAge.toLowerCase() ==='y'){
+function userAge(){ 
+    let myAge = prompt('Am I greater than 20 years old?');
+    if (myAge.toLowerCase() ==='yes' || myAge.toLowerCase() ==='y'){
 alert('thats right')
 score++;
 } else if(myAge.toLowerCase() ==='no' || myAge.toLowerCase() ==='n'){
@@ -13,10 +14,11 @@ score++;
 }
 console.log(myAge);
 alert('I am 23 years')
+}
 
-
-let myTravel = prompt('did I travel?');
-if(myTravel.toLowerCase() === 'yes' || myTravel.toLowerCase() === 'y'){
+function userTravel(){
+    let myTravel = prompt('did I travel?');
+     if(myTravel.toLowerCase() === 'yes' || myTravel.toLowerCase() === 'y'){
     alert('thats right')
     score++;
 }else if (myTravel.toLowerCase() === 'no' || myTravel.toLowerCase() === 'n'){
@@ -26,9 +28,11 @@ if(myTravel.toLowerCase() === 'yes' || myTravel.toLowerCase() === 'y'){
 }
 console.log(myTravel);
 alert('I love travel')
+}
 
-let myColor = prompt('do I like red color?');
-if (myColor.toLowerCase() === 'yes' || myColor.toLowerCase() === 'y'){
+function userColor(){
+    let myColor = prompt('do I like red color?');
+    if (myColor.toLowerCase() === 'yes' || myColor.toLowerCase() === 'y'){
     alert('thats right')
     score++;
 }else if(myColor.toLowerCase() === 'no' || myColor.toLowerCase() === 'n'){
@@ -38,10 +42,12 @@ if (myColor.toLowerCase() === 'yes' || myColor.toLowerCase() === 'y'){
 }
 console.log(myColor);
 alert('Ilike red color')
+}
 
 
-let myProg = prompt('do I like programing?');
-if(myProg.toLowerCase() === 'yes' || myProg.toLowerCase() === 'y'){
+function userProg(){
+    let myProg = prompt('do I like programing?');
+    if(myProg.toLowerCase() === 'yes' || myProg.toLowerCase() === 'y'){
     alert('thats right')
     score++;
 }else if(myProg.toLowerCase() === 'no' || myProg.toLowerCase() === 'n'){
@@ -51,9 +57,10 @@ if(myProg.toLowerCase() === 'yes' || myProg.toLowerCase() === 'y'){
 }
 console.log(myProg);
 alert('i like programing')
-
-let myDrink = prompt('Did I drink water today?');
-if(myDrink.toLowerCase() === 'yes' || myDrink.toLowerCase() === 'y'){
+}
+function userDrink(){
+    let myDrink = prompt('Did I drink water today?');
+    if(myDrink.toLowerCase() === 'yes' || myDrink.toLowerCase() === 'y'){
     alert('thats right')
     score++;
 }else if(myDrink.toLowerCase() === 'no' || myDrink.toLowerCase() === 'no'){
@@ -63,14 +70,14 @@ if(myDrink.toLowerCase() === 'yes' || myDrink.toLowerCase() === 'y'){
 }
 console.log(myDrink);
 alert('water important')
-
-
+}
 
 
 
 
 let myNum = 7;
-for(let i= 0; i<=4; i++){
+function userNum(){
+    for(let i= 0; i<=4; i++){
     let guess = prompt('what my faverate number?');
 
     if(parseInt(guess) === myNum){
@@ -87,11 +94,13 @@ for(let i= 0; i<=4; i++){
     console.log(guess);
 }
 alert(myNum);
+}
 
 
 
 let sweet = ['coocki', 'cake','donat','crep']
-let found = false;
+function userSweet(){
+    let found = false;
 for(let x=0; x<6; x++){
     let favSweet = prompt('what is my favourite sweet');
      for(let y=0; y<4; y++){
@@ -107,11 +116,25 @@ for(let x=0; x<6; x++){
             break;
          }
 }
-
-let userName = prompt('whats your name?');
+}
+function Name(){
+    let userName = prompt('whats your name?');
 alert(`hello ${userName} my name is judy I am happy to meet you` )
 console.log(userName);
 alert(userName);
+}
+
+userAge();
+userTravel();
+userColor();
+userProg();
+userDrink();
+userNum();
+userSweet();
+Name();
+
+
+
 
 document.write(sweet);
 alert(`your scores ${score}`);
