@@ -85,6 +85,7 @@ for(let i= 0; i<=4; i++){
         alert('good luck')
     }
     console.log(guess);
+    alert(myNum);
 }
 
 let sweet = ['coocki', 'cake','donat','crep']
