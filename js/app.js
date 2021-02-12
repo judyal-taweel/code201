@@ -12,7 +12,6 @@ score++;
 }else{
     alert('okey')
 }
-console.log(myAge);
 alert('I am 23 years')
 }
 
@@ -26,7 +25,6 @@ function userTravel(){
 }else{
     alert('okey')
 }
-console.log(myTravel);
 alert('I love travel')
 }
 
@@ -40,7 +38,6 @@ function userColor(){
 }else{
     alert('okey')
 }
-console.log(myColor);
 alert('Ilike red color')
 }
 
@@ -55,7 +52,6 @@ function userProg(){
 }else{
     alert('okey')
 }
-console.log(myProg);
 alert('i like programing')
 }
 function userDrink(){
@@ -68,7 +64,6 @@ function userDrink(){
 }else{
     alert('okey')
 }
-console.log(myDrink);
 alert('water important')
 }
 
@@ -91,7 +86,6 @@ function userNum(){
     }else{
         alert('good luck')
     }
-    console.log(guess);
 }
 alert(myNum);
 }
@@ -106,7 +100,6 @@ for(let x=0; x<6; x++){
      for(let y=0; y<4; y++){
         if(favSweet.toLowerCase() === sweet[y]){
             alert('thats right');
-            console.log(favSweet);
             found = true;
             score++;
             break;
@@ -120,7 +113,6 @@ for(let x=0; x<6; x++){
 function Name(){
     let userName = prompt('whats your name?');
 alert(`hello ${userName} my name is judy I am happy to meet you` )
-console.log(userName);
 alert(userName);
 }
 
